@@ -3,4 +3,6 @@ let student={
     age:25,
     city:"Bhopal"
 }
-console.log(student);
+console.log(student); 
+console.log(student.age); 
+
