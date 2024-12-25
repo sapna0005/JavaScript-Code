@@ -19,3 +19,7 @@
       btn.addEventListener("click",()=>{
       alert("button clicked")
       })
+
+      let imp=document.querySelector("#imp")
+      imp.addEventListener("keydown",(e)=>{
+      console.log(e.key)})
