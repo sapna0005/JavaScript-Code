@@ -1,0 +1,30 @@
+
+.calci{
+    border-radius: 10px;
+    background-color: rgb(70, 67, 67);
+    margin: auto;
+}
+#display{
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(192, 241, 192);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+td{
+ font-size: 18px;
+ text-align: center;
+ border-radius: 4px;
+ color: white;
+ cursor: pointer;
+}
+#del1{
+    background-color: rgb(232, 87, 87);
+    cursor: pointer;
+ 
+}
+#del1:hover{
+    box-shadow: 2px 4px 12px white;
+}
