@@ -11,21 +11,23 @@ body{
 
 }
 form{
-   padding: 20px;
+    padding: 20px;
     width: 300px;
     border: 1px solid black;
-    text-align: center;
     border-radius: 5px;
     background-image: url(./image-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 4px 10px orangered;
+    box-shadow: 2px 4px 10px rgb(69, 68, 67);
 
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
+}
+label{
+    text-align: start;
 }
 input[type="text"]{
 
@@ -34,7 +36,7 @@ input[type="text"]{
     margin: 5px 0;
     box-sizing: border-box;
     border-radius: 5px;
-    box-shadow: 2px 4px 10px rgb(233, 150, 120);
+    
     
 }
 input[type="password"]{
@@ -44,14 +46,15 @@ input[type="password"]{
     margin: 5px 0;
     box-sizing: border-box;
     border-radius: 5px;
-    box-shadow: 2px 4px 10px rgb(233, 150, 120);
+    
 }
 input[type="submit"]{
   padding: 10px 50px;
   background-color: rgb(94, 176, 11);
   color: white;
   border: none;
- 
+  width: 80%;
+
   border-radius: 5px;
   margin-top: 10px;
 }
